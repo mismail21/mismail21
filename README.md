@@ -1,13 +1,17 @@
 # Hi, I'm Mohammad Ismail 👋
 
 **Computer & Data Science student at Concordia University (2028) · AI engineering & AI security**
-📍 Montréal, QC
+📍 Montréal, QC · 🔐 Currently exploring: agent security & evaluation
 
-I build LLM agents and secure systems, and I care about making AI output *verifiable*. I've interned across enterprise consulting, security engineering and full-stack ML, and co-founded a startup that reached $8K+ in monthly revenue.
+I build LLM agents and secure systems, and I care about making AI output *verifiable* and agents hard to hijack. I've interned across enterprise consulting, security engineering and full-stack ML, and co-founded a startup that reached $8K+ in monthly revenue.
 
-## 🔭 Featured project
+## 🔭 Projects
 
-**[Grounded Vulnerability Triage Agent](https://github.com/mismail21/grounded-vuln-triage)** — an LLM agent that turns a dependency file into a prioritized vulnerability fix report using 6 tools (OSV, NVD, CISA KEV, EPSS, upgrade checks, schema-validated report). A grounding checker verifies every claim against fetched evidence: across 18 test manifests it found 171/171 vulnerabilities, raised 0 false alarms, and blocked the 1 fabricated value in 1,026 claims.
+**[AgentShield](https://github.com/mismail21/agentshield)** *(newest)* — a prompt-injection defense layer and reproducible benchmark for tool-using LLM agents. Three agents to attack, a 100-attack corpus, four composable safeguards (detector, spotlighting, least-privilege tools, output checker), a DistilBERT detector and an AgentDojo adapter, all on free/local models. On Qwen3 1.7B the full defense cut attack success from 11% to 0% while utility under attack rose from 44% to 66%. The DistilBERT detector failed to generalize, and that result is reported openly.
+
+**[Grounded Vulnerability Triage Agent](https://github.com/mismail21/grounded-vuln-triage)** — an LLM agent that turns a dependency file into a prioritized vulnerability fix report using 6 tools (OSV, NVD, CISA KEV, EPSS, upgrade checks, schema-validated report). A grounding checker ("no source, no value") verifies every claim against fetched evidence: across 18 test manifests it found 171/171 vulnerabilities, raised 0 false alarms, and blocked the 1 fabricated value in 1,026 claims.
+
+**[SustainaMars](https://github.com/mismail21/sustainamars)** — an interactive Mars growth system built around sustainable waste recycling at Jezero Crater, with plant monitoring and AI mission planning.
 
 ## 💼 Experience
 
@@ -30,7 +34,7 @@ I build LLM agents and secure systems, and I care about making AI output *verifi
 ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?logo=supabase&logoColor=white&style=flat-square)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
 
-- **GenAI / Agents:** LLM agents, tool calling, grounding & evaluation, n8n, Make.com
+- **GenAI / Agents:** LLM agents, tool calling, grounding & evaluation, prompt-injection defense, n8n, Make.com
 - **Security:** Penetration testing (OWASP Top 10, SQLi, XSS), CVSS, OWASP ZAP, Bandit, Zero Trust
 - **ML:** Machine learning, recommendation models, data analysis (Matplotlib, Seaborn)
 
