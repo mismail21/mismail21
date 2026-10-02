@@ -7,7 +7,7 @@ I build LLM agents and secure systems, and I care about making AI output *verifi
 
 ## 🔭 Projects
 
-**[AgentShield](https://github.com/mismail21/agentshield)** *(newest)* — a prompt-injection defense layer and reproducible benchmark for tool-using LLM agents. Three agents to attack, a 100-attack corpus, four composable safeguards (detector, spotlighting, least-privilege tools, output checker), a DistilBERT detector and an AgentDojo adapter, all on free/local models. On Qwen3 1.7B the full defense cut attack success from 11% to 0% while utility under attack rose from 44% to 66%. The DistilBERT detector failed to generalize, and that result is reported openly.
+**[AgentShield](https://github.com/mismail21/agentshield)** — a prompt-injection defense layer and reproducible benchmark for tool-using LLM agents. Three agents to attack, a 100-attack corpus, four composable safeguards (detector, spotlighting, least-privilege tools, output checker), a DistilBERT detector and an AgentDojo adapter, all on free/local models. On Qwen3 1.7B the full defense cut attack success from 11% to 0% while utility under attack rose from 44% to 66%. The DistilBERT detector failed to generalize, and that result is reported openly.
 
 **[Grounded Vulnerability Triage Agent](https://github.com/mismail21/grounded-vuln-triage)** — an LLM agent that turns a dependency file into a prioritized vulnerability fix report using 6 tools (OSV, NVD, CISA KEV, EPSS, upgrade checks, schema-validated report). A grounding checker ("no source, no value") verifies every claim against fetched evidence: across 18 test manifests it found 171/171 vulnerabilities, raised 0 false alarms, and blocked the 1 fabricated value in 1,026 claims.
 
